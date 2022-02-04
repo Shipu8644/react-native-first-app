@@ -1,23 +1,9 @@
 import { View, Text, StyleSheet, Image } from 'react-native';
 import React from 'react';
-import Swiper from 'react-native-swiper';
 const Banner = () => {
     return (
         <View style={bannerStyles.container}>
-            <Swiper
-            loop
-            autoplay
-            >
-                <Image source={require("../../assets/images/img1.jpg")}
-                    style={bannerStyles.image}
-                />
-                <Image source={require("../../assets/images/img1.jpg")}
-                    style={bannerStyles.image}
-                />
-                <Image source={require("../../assets/images/img1.jpg")}
-                    style={bannerStyles.image}
-                />
-            </Swiper>
+           <Text>Banner</Text>
 
         </View>
     );

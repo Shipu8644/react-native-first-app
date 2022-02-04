@@ -1,22 +1,23 @@
-import { StatusBar } from 'expo-status-bar';
+
 import React, { useState } from 'react';
 import {
   View,
   Text
 } from 'react-native';
 import Banner from './screens/Banner/Banner';
-import Banner1 from './screens/Banner/Banner1';
+import HomeBanner from './screens/Banner/HomeBanner';
 import Card from './screens/Card/Card';
 import ResFlex from './screens/ResFlex/ResFlex';
+import { styles } from './style';
 
 const App = () => {
   return (
-    <View>
+    <View style={{marginTop:50}}>
      {/* <Text >Hello</Text> */}
      {/* <ResFlex></ResFlex> */}
      {/* <StatusBar style='auto'></StatusBar> */}
      {/* <Banner/> */}
-     <Banner1/>
+     <HomeBanner/>
      {/* <Card/> */}
     </View>
   );
